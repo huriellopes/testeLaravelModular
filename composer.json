@@ -1,0 +1,25 @@
+{
+    "name": "huriellopes/blog",
+    "description": "",
+    "authors": [
+        {
+            "name": "Huriel Lopes",
+            "email": "huriellopes1996@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HDev\\Blog\\Providers\\BlogServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "HDev\\Blog\\": ""
+        }
+    }
+}
